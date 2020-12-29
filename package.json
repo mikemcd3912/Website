@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikemcd3912/Website.git"
+  },
+  "author": "Mike McDonald",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikemcd3912/Website/issues"
+  },
+  "homepage": "https://github.com/mikemcd3912/Website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "forever": "^3.0.4"
+  }
+}
