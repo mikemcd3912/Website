@@ -1,11 +1,18 @@
 var express = require('express');
 var expresshandlebar = require('express-handlebars');
 var app = express();
+var path = require('path');
+process.env.HOSTNAME='localhost';
 
+// app.use(express.static(path.join(__dirname + '/public')));
 
-app.engine('handlebars', expresshandlebar());
-app.set('port', 80);
-app.set('view engine', 'handlebars');
+app.engine('hbs', expresshandlebar({
+    layoutsDir:__dirname+'/views/layouts',
+    defaultLayout:'main',
+    extname:'hbs'}));
+
+app.set('port', 3000);
+app.set('view engine', 'hbs');
 
 app.get('/', function(req, res) {
     res.redirect('Home');
