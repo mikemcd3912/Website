@@ -26,12 +26,16 @@ app.get('/AboutMe', function(req,res){
     res.render('aboutMe');
 });
 
-app.get('Experience', function(req, res){
+app.get('/Experience', function(req, res){
     res.render('experience');
 })
 
-app.get('Projects', function(req, res){
+app.get('/Projects', function(req, res){
     res.render('projects');
+})
+
+app.get('/Contact', function(req, res){
+    res.render('contact');
 })
 
 app.use(function(err, req, res, next){
