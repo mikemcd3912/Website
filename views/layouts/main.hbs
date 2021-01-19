@@ -5,36 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="customStyles.css" type ="text/css" rel="stylesheet"/>
   <title>Mike McDonald</title>
 </head>
 <body>
-  <img src="/images/HurricaneRidge.jpg" class="img-fluid" alt="HurricaneRidge">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/home">Mike McDonald</a>
-      <right>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/aboutMe">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/experience">Professional Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/projects">Engineering Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact">Contact Info</a>
-            </li>
-          </ul>
-        </div>
-      </right>
-    </div>
-  </nav>
-    {{{body}}}
+  <div id="background">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/home">Mike McDonald</a>
+        <right>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="/home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/aboutMe">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/experience">Professional Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/projects">Engineering Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="/contact">Contact Info</a>
+              </li>
+            </ul>
+          </div>
+        </right>
+      </div>
+    </nav>
+      {{{body}}}
+  </div>
 </body>
 </html>
