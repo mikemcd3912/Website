@@ -1,8 +1,22 @@
-#background{
-    width:100%;
+.fill{
     height:100%;
-    background-image: url(/images/HurricaneRidge.jpg);
+    min-height: 100%;
+    background-image: url("./images/HurricaneRidge.jpg");
     background-position: center;
     background-size:cover;
     background-attachment: scroll;
   }
+
+.card-body{
+  opacity: 100%;
+  font-size: medium;
+}
+
+  html, body{
+    height: 100%;
+  }
+
+#social{
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
