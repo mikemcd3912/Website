@@ -3,6 +3,10 @@
   font-size: medium;
 }
 
+.wrapper{
+  min-height: 100%;
+}
+
   html, body{
     height:100%;
     min-height: 100%;
@@ -38,3 +42,4 @@
 span{
   height:1rem;
 }
+
