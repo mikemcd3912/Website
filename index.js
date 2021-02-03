@@ -4,7 +4,7 @@ var app = express();
 var path = require('path');
 process.env.HOSTNAME='localhost';
 
-// app.use(express.static(path.join(__dirname + '/public')));
+app.use(express.static(path.join(__dirname + '/public')));
 
 app.engine('hbs', expresshandlebar({
     layoutsDir:__dirname+'/views/layouts',
