@@ -7,14 +7,14 @@
   min-height: 100%;
 }
 
-  html, body{
-    height:100%;
-    min-height: 100%;
-    background-image: url("./images/HurricaneRidge.jpg");
-    background-position: center;
-    background-size:cover;
-    background-attachment: fixed;
-  }
+html, body{
+  height:100%;
+  min-height: 100%;
+  background-image: url("/images/HurricaneRidge.jpg");
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
 
 #social{
   padding-top: 0rem;
