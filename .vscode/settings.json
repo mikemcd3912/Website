@@ -4,6 +4,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/29872c0e-e947-4daa-9428-12e5d96dcb5b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/mikebmcdonalddotcom",
-    "appService.deploySubpath": "."
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/29872c0e-e947-4daa-9428-12e5d96dcb5b/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/MikeMcDonald"
 }

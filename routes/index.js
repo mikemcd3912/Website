@@ -19,16 +19,16 @@ router.get('/AboutMe', function(req,res){
 // Get Experience Page
 router.get('/Experience', function(req, res){
   res.render('experience');
-})
+});
 
 // Get Projects Page
 router.get('/Projects', function(req, res){
   res.render('projects');
-})
+});
 
 // Get Contact info Page
 router.get('/Contact', function(req, res){
   res.render('contact');
-})
+});
 
 module.exports = router;
